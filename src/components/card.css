@@ -59,10 +59,17 @@
 .products-card button:hover {
     background-color: #0056b3; /* Darker blue on hover */
 }
+
 .rarity-line {
   height: 4px;
   border: none;
   margin: 10px 0;
+}
+.float-line {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem; /* Space between float line and image */
 }
 
 /* Example rarities */
@@ -74,7 +81,7 @@
 }
 
 .rarity-line.classified {
-  background-color: purple;
+  background-color: #d32ee6;
 }
 
 .rarity-line.restricted {

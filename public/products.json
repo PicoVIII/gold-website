@@ -10,6 +10,8 @@
     "price": 300.00,
     "image": "akscar.png",
     "type": "rifle",
+    "stattrak": true,
+    "souvenir": false,
     "featured": true
   },
   {
@@ -23,6 +25,8 @@
     "price": 1500.00,
     "image": "m4howl.png",
     "type": "rifle",
+    "stattrak": false,
+    "souvenir": false,
     "featured": true
   },
   {
@@ -36,6 +40,8 @@
     "price": 500.00,
     "image": "deagleblaze.png",
     "type": "pistol",
+    "stattrak": true,
+    "souvenir": false,
     "featured": true
   }
 ]
