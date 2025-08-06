@@ -6,7 +6,7 @@ function Featured() {
     const [featuredProducts, setFeaturedProducts] = useState([]);
 
     useEffect(() => {
-        fetch('./components/products.json')
+        fetch('/products.json')
         .then((res) => res.json())
         .then((data) => {
             const featured = data.filter(product => product.featured);
