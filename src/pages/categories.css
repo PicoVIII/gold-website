@@ -1,0 +1,11 @@
+h2{
+    padding: 0 8em;
+}
+.Weapons{
+    width: 100%;
+}
+.Categories{
+    min-height: 100vh; 
+    display: flex; 
+    flex-direction: column;
+}

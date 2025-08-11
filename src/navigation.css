@@ -1,0 +1,56 @@
+.nav-container {
+  position: static; /* navbar only */
+  display: flex;
+  justify-content: center;
+  align-items: center; /* vertically center content */
+  background-color: hsl(0, 0%, 38%);
+  width: 100%;
+  max-width: 100%;
+  height: 2rem; /* fixed navbar height */
+  padding: 0; /* no extra vertical padding */
+  box-sizing: border-box;
+}
+
+/* ensure inner nav takes full height */
+.nav-container nav{
+  height: 100%;
+}
+
+.nav-links{
+  list-style: none;
+  display: flex;
+  gap: 2rem; /* balanced spacing */
+  padding: 0 12px; /* horizontal only */
+  margin: 0;
+  height: 100%; /* match navbar height */
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.nav-links a{
+  text-decoration: none;
+  color: inherit;
+  display: inline-flex; /* allow vertical centering */
+  align-items: center;
+  height: 100%; /* fill navbar height */
+  padding: 0 14px; /* only horizontal padding */
+  border-radius: 6px;
+  transition: background-color 0.15s ease; /* no scale to avoid visual growth */
+}
+
+/* stable hover that doesn't change height */
+.nav-links a:hover{
+  background-color: rgba(255,255,255,0.08);
+}
+
+@media (max-width: 600px) {
+  .nav-container {
+    height: 44px; /* slightly smaller on mobile */
+  }
+  .nav-links{
+    gap: 1rem;
+    padding: 0 8px;
+  }
+}
+  

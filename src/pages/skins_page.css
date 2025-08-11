@@ -1,0 +1,13 @@
+h2{
+    padding: 0 8em;
+}
+.all-skins{
+    width: 100%;
+}
+
+/* Make the skins page use a column flex layout so the footer can stick to bottom */
+.skins-page {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}

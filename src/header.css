@@ -1,0 +1,127 @@
+.App-header{
+    display:flex;
+    position: sticky;
+    top: 0;
+    z-index: 2000; /* Higher than navigation's 1000 */
+    align-items:center;
+    padding: 0.1rem 1rem; /* Reduced from 0.3rem to 0.1rem for less vertical spacing */
+    font-size: 1rem;
+    background-color: hsl(0, 0%, 24%);
+    color:hsl(0, 0%, 100%);
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+.name-logo{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    flex: 0 0 auto; /* Don't grow or shrink */
+    z-index: 2001; /* Above search */
+}
+
+.name-logo img{
+    max-width: 15%;
+    height: auto;
+}
+.search-div {
+  position: absolute; /* Position absolutely across full width */
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center; /* Centers the search bar across full page */
+  align-items: center;
+  z-index: 2000; /* Below logo and profile */
+}
+
+.search-div form {
+  display: flex; /* Make the form a flex container */
+  align-items: center; /* Align items vertically */
+  width: 100%; /* Take full width of parent */
+  max-width: 500px; /* Increased from 300px to make it wider */
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem; /* Added padding for better spacing */
+  background-color: hsl(0, 0%, 20%);
+  border-radius: 0.5rem;
+  width: 100%; /* Full width on smaller screens */
+  border: 1px solid hsl(0, 0%, 30%);
+  color: hsl(0, 0%, 100%);
+  font-size: 1rem;
+  box-sizing: border-box; /* Ensures padding is included in width */
+  transition: background-color 0.3s ease;
+}
+.search-bar:focus {
+  background-color: hsl(0, 0%, 30%);
+  outline: none; /* Removes default focus outline */
+}
+.search-button {
+  display: flex;
+  background-color: hsl(0, 0%, 30%);
+  color: hsl(0, 0%, 100%);
+  border: none;
+  padding: 0.5rem 1rem; /* Added padding for better spacing */
+  border-radius: 0.5rem;
+  cursor: pointer;
+  margin-left: 0.5rem; /* Space between search bar and button */
+  transition: background-color 0.3s ease;
+} 
+.search-button img{
+  width: 20px; /* Adjusted size for better fit */
+  height: 20px; /* Adjusted size for better fit */
+}
+.search-button:hover{
+  transform: scale(1.05);
+}
+.profile-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 auto; /* Don't grow or shrink */
+  margin-left: auto; /* Push to right */
+  z-index: 2001; /* Above search */
+}
+.profile-button{
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0.3rem; /* Reduced from 0.5rem */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.profile-button img,
+.cart-button img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.cart-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0.3rem; /* Reduced from 0.5rem */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .App-header {
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 1rem;
+    padding: 0.5rem;
+  }
+    .name-logo{
+    max-width: 100%;
+    justify-content: center;
+  }
+
+}

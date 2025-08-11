@@ -1,0 +1,41 @@
+.weapon{
+    background-color: hsl(0, 0%, 24%);
+    border: 1px solid hsl(0, 0%, 0%);
+    border-radius: 0.8rem;
+    box-shadow: 0 0.2rem 0.2rem hsla(0, 0%, 0%, 0.562);
+    padding: 1.6rem;
+    text-align: left; /* Changed from center to left */
+    margin: 1.6rem;
+    width: 10rem; /* Reduced from 20rem to make it slimmer */
+    transition: transform 0.2s ease-in-out;
+    font-size: 0.9rem; /* Smaller font size */
+    letter-spacing: -0.5px; /* Tighter letter spacing */
+    color: white; /* Make text white */
+}
+.weapon h3 {
+    font-size: 1rem; /* Smaller heading */
+    margin: 0.5rem 0; /* Reduced margins */
+    letter-spacing: -0.3px;
+    color: white; /* Make heading white */
+}
+
+.weapon p {
+    font-size: 0.85rem; /* Smaller paragraph text */
+    margin: 0.3rem 0; /* Reduced margins */
+    letter-spacing: -0.2px;
+    color: white; /* Make paragraph text white */
+}
+.weapon:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+    box-shadow: 0 0.4rem 0.4rem hsla(0, 0%, 0%, 0.562); /* Slightly larger shadow on hover */
+    background-color: hsl(0, 0%, 20%); /* Darker background on hover */
+}
+
+.weapon img {
+    width: 100%;
+    height: 8em; /* Fixed height for consistent layout */
+    object-fit: cover; /* Ensures image fits properly */
+    border-radius: 0.8rem;
+    margin-bottom: 1rem;
+}

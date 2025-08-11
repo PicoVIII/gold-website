@@ -1,0 +1,14 @@
+body {
+    margin: 0;
+  }
+  
+  .home {
+    min-height: 100vh; /* Ensure the app has full viewport height */
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* Allow content area to grow and push footer down */
+  .home main {
+    flex: 1;
+  }

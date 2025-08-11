@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "gun": "AK-47",
+    "skin": "Case Hardened",
+    "rarity": "Classified",
+    "float": 0.1603234,
+    "wearLevel": "Field-Tested",
+    "pattern": 661,
+    "price": 300.00,
+    "type": "rifle",
+    "stattrak": true,
+    "souvenir": false,
+    "featured": true
+  },
+  {
+    "id": 2,
+    "gun": "M4A4",
+    "skin": "Howl",
+    "rarity": "Contraband",
+    "float": 0.001123,
+    "wearLevel": "Factory New",
+    "pattern": 554,
+    "price": 1500.00,
+    "type": "rifle",
+    "stattrak": false,
+    "souvenir": false,
+    "featured": true
+  },
+  {
+    "id": 3,
+    "gun": "Desert Eagle",
+    "skin": "Blaze",
+    "rarity": "Restricted",
+    "float": 0.2000000,
+    "wearLevel": "Well-Worn",
+    "pattern": 234,
+    "price": 500.00,
+    "type": "pistol",
+    "stattrak": true,
+    "souvenir": false,
+    "featured": true
+  }
+]

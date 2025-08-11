@@ -1,0 +1,101 @@
+.skin-card{
+    background-color: hsl(0, 0%, 24%);
+    border: 1px solid hsl(0, 0%, 0%);
+    border-radius: 0.8rem;
+    box-shadow: 0 0.2rem 0.2rem hsla(0, 0%, 0%, 0.562);
+    padding: 1.6rem;
+    text-align: left; /* Changed from center to left */
+    margin: 1.6rem;
+    width: 16rem; /* Reduced from 20rem to make it slimmer */
+    transition: transform 0.2s ease-in-out;
+    font-size: 0.9rem; /* Smaller font size */
+    letter-spacing: -0.5px; /* Tighter letter spacing */
+    color: white; /* Make text white */
+}
+
+.skin-card h3 {
+    font-size: 1rem; /* Smaller heading */
+    margin: 0.5rem 0; /* Reduced margins */
+    letter-spacing: -0.3px;
+    color: white; /* Make heading white */
+}
+
+.skin-card p {
+    font-size: 0.85rem; /* Smaller paragraph text */
+    margin: 0.3rem 0; /* Reduced margins */
+    letter-spacing: -0.2px;
+    color: white; /* Make paragraph text white */
+}
+.skin-card:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+    box-shadow: 0 0.4rem 0.4rem hsla(0, 0%, 0%, 0.562); /* Slightly larger shadow on hover */
+    background-color: hsl(0, 0%, 20%); /* Darker background on hover */
+}
+
+.skin-card img {
+    width: 100%;
+    height: 12em; /* Fixed height for consistent layout */
+    object-fit: cover; /* Ensures image fits properly */
+    border-radius: 0.8rem;
+    margin-bottom: 1rem;
+}
+
+.skin-card button {
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    color: white; 
+    background-color: #007bff; /* Match shop button color */
+    padding: 0.8rem 1rem;
+    border-radius: 0.25rem; /* Match shop button border radius */
+    border: none; /* Remove border */
+    cursor: pointer;
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    transition: background-color 0.3s ease;
+}
+
+.skin-card button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+.rarity-line {
+  height: 4px;
+  border: none;
+  margin: 10px 0;
+}
+.float-line {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem; /* Space between float line and image */
+}
+
+/* Example rarities */
+.rarity-line.contraband {
+  background-color: #e4ae39;
+}
+.rarity-line.covert {
+  background-color: red;
+}
+
+.rarity-line.classified {
+  background-color: #d32ee6;
+}
+
+.rarity-line.restricted {
+  background-color: blue;
+}
+
+.rarity-line.mil-spec {
+  background-color: darkblue;
+}
+
+.rarity-line.industrial {
+  background-color: gray;
+}
+
+.rarity-line.consumer {
+  background-color: lightgray;
+}

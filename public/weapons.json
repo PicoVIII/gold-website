@@ -1,0 +1,46 @@
+[
+    {
+        "id": 1,
+        "name": "AK-47",
+        "featured": true,
+        "image": "ak-47default.webp",
+        "weaponType": "rifles"
+        
+    },
+    {
+        "id": 2,
+        "name": "M4A4",
+        "featured": true,
+        "image": "weapon_image/m4a4Default.webp",
+        "weaponType": "rifles"
+    },
+    {
+        "id": 3,
+        "name": "Desert Eagle",
+        "featured": true,
+        "image": "m4a4Default.webp",
+        "weaponType": "pistols"
+        
+    },
+    {
+        "id": 4,
+        "name": "M4A1-S",
+        "featured": false,
+        "image": "m4a4Default.webp",
+        "weaponType": "rifles"
+    },
+    {
+        "id": 5,
+        "name": "Galil AR",
+        "featured": false,
+        "image": "m4a4Default.webp",
+        "weaponType": "rifles"
+    },
+    {
+        "id": 6,
+        "name": "Karambit",
+        "featured": false,
+        "image": "m4a4Default.webp",
+        "weaponType": "knives"
+    }
+]

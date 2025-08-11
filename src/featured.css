@@ -1,0 +1,24 @@
+*{
+  background-image: "./assets/wavey-fingerprint.svg";
+}
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3rem;
+}
+.featured-skins h2, .featured-weapons h2 {
+  font-size: 2rem;
+  color: black;
+  margin-bottom: 1rem;
+  text-align: left;
+  padding-left: 0;
+}
+
+.featured-skins, .featured-weapons {
+  display: flex;
+  flex-direction: column;
+  padding: 0 8em;
+  align-items: left;
+
+}
