@@ -12,6 +12,8 @@ function getWeaponImage(name){
             return m4a4;
         case "Desert Eagle":
             return deagle;
+        case "Karambit":
+            return deagle;
         default:
             return null;
     }

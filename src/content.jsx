@@ -15,7 +15,7 @@ function Content() {
                     <h1>{promo.title}</h1>
                     <p>{promo.description}</p>
                 </div>
-                <Link to='/products'>
+                <Link to='/skins'>
                     <button className='shop-button'>Shop Now</button>
                 </Link>
             </div>
